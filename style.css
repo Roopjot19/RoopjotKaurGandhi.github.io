@@ -1,0 +1,95 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-family: 'Merienda One', sans-serif;
+}
+.navbar .nav-item {
+    color: white;
+    font-family: 'Merienda One', sans-serif;
+}
+.navbar .nav-link {
+    color: white;
+}
+
+
+
+/* hero background image */
+
+.bgimage {
+    height:100vh;
+    background: url('images/BG.png');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.text-center {
+    font-family: 'Merienda One', sans-serif;
+}
+
+.col-lg-8 {
+    font-family: 'Merienda One', sans-serif;
+    font-size:large; 
+}
+
+/* skills section css */
+.servicesText.card {
+    cursor: pointer;
+  }
+
+.card-title {
+    text-align: center;
+}
+
+.servicesText:hover {
+    border: 1px solid blueviolet;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: black;
+}
+.fab {
+    color: brown;
+}
+/* footer styling */
+#footer {
+    background-color: beige;
+    text-align: center;
+}
